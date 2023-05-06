@@ -6,6 +6,7 @@ const loggerObject = require("./config/logger");
 const logger = require("morgan");
 const dotenv = require("dotenv").config();
 const compression = require("compression");
+const cors = require("cors");
 
 require("./database/models/index");
 
@@ -21,6 +22,7 @@ app.set("view engine", "ejs");
 app.use(compression());
 app.use(logger("dev"));
 app.use(express.json());
+app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
