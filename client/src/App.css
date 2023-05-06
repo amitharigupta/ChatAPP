@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    background-image: url("../vite.svg");
+    background-size: cover;
+    background-position: center;
+}
