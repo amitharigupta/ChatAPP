@@ -17,12 +17,15 @@ module.exports = {
       return false;
     }
   },
-  getAllUser: async () => {
+  getAllUser: async (query, limit, offset) => {
     try {
       let users = await UserModel.findAll({
+        where : query,
         attributes: {
           exclude: ["password", "createdAt", "updatedAt", "deletedAt"],
         },
+        offset: offset,
+        limit: limit    
       });
       if (users) return users;
       else return false;

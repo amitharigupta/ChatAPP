@@ -1,0 +1,8 @@
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value { firstName: { '$eq': 'amit1@gmail.com' } }","timestamp":"2023-05-06T13:39:23.874Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value { firstName: { '$eq': 'amit1@gmail.com' } }","timestamp":"2023-05-06T13:42:35.599Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value { firstName: { '$eq': 'amit1@gmail.com' } }","timestamp":"2023-05-06T13:42:55.873Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value [Function: search]","timestamp":"2023-05-06T13:55:00.476Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value [Function: search]","timestamp":"2023-05-06T13:55:35.435Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value [Function: search]","timestamp":"2023-05-06T13:55:41.418Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value { undefined: 'Amit' }","timestamp":"2023-05-06T14:02:32.355Z"}
+{"level":"warn","message":"fileName: User.model.js : getAllUser : , message: Error: Invalid value { undefined: 'Amit' }","timestamp":"2023-05-06T14:02:33.819Z"}

@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs/.80dc47a5f0deace9a0c67841b6c7a71972049b66-audit.json",
+    "files": [
+        {
+            "date": 1683382322656,
+            "name": "logs/ChatAPP-2023-05-06.log",
+            "hash": "b308bca78e8bc0a487d0b19ad449109da6328d18e7d43815355f1dc32cd38bad"
+        }
+    ],
+    "hashType": "sha256"
+}

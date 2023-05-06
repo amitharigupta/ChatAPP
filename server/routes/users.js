@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 const UserController = require("../controller/UserController.js");
+const AuthMiddleware = require("../middlewares/AuthMiddleware");
 
 /* GET users listing. */
-router.get('/all', UserController.getAllUser);
+router.get('/all',  AuthMiddleware.isAuthenticated, UserController.getAllUser);
 
 router.post('/register', UserController.createUser);
 
