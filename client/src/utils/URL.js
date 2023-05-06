@@ -1,0 +1,1 @@
+export const API_BACKEND_URL="https://orange-journalist-dtghp.ineuron.app:5000/api"

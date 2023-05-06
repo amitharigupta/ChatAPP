@@ -9,6 +9,21 @@
             "date": 1682830130404,
             "name": "logs/ChatAPP-2023-04-30.log",
             "hash": "cf6504d9f231796b0f3d37033e3c2c06c9ac76ee17d7f9083b155a0c2b844b9d"
+        },
+        {
+            "date": 1683039968147,
+            "name": "logs/ChatAPP-2023-05-02.log",
+            "hash": "9a8f6119a81e908df34453c95cd55e0dfc21bb9afc7e2f58df4e6dc5dd0507e7"
+        },
+        {
+            "date": 1683294454981,
+            "name": "logs/ChatAPP-2023-05-05.log",
+            "hash": "096fc8fb04b85d5ce36c9bfce41f179af109ea690a675165cbd8b76fda971c88"
+        },
+        {
+            "date": 1683346704557,
+            "name": "logs/ChatAPP-2023-05-06.log",
+            "hash": "13ac28338ec76fca09ef2618d82314b4f6765944c1a594d493e2dc29274f746d"
         }
     ],
     "hashType": "sha256"
